@@ -1,0 +1,4 @@
+# .swift
+  *.metadata
+  *.txt
+  build/
