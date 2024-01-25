@@ -18,7 +18,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANSIBLE_DIRECRTORY: "."
-          ANSIBLE_CONFIG_FILE: ".ansible-lint
+          ANSIBLE_CONFIG_FILE: ".ansible-lint"
           BASH_SEVERITY: "error"
           GITHUB_ACTIONS_COMMAND_ARGS: "-shellcheck="
           VALIDATE_BASH": false
