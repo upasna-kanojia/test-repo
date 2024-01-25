@@ -19,6 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANSIBLE_DIRECRTORY: "."
           ANSIBLE_CONFIG_FILE: ".ansible-lint"
+          YAML_CONFIG_FILE: ".yaml-lint"
           BASH_SEVERITY: "error"
           GITHUB_ACTIONS_COMMAND_ARGS: "-shellcheck="
           VALIDATE_BASH": false
