@@ -1,0 +1,12 @@
+ignore: |
+  **/templates/test_template.j2
+yaml-files:
+  - '*j2
+rules:
+  braces:
+    level: warning
+  brackets: enable
+  comments:
+    level: warning
+  comments-indentation:
+    level: warning
