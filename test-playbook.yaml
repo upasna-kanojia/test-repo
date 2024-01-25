@@ -2,6 +2,6 @@
 - hosts: all
   tasks:
     - name: test
-      svc:
-       src: {{ abc }
+      commands:
+       src: {{ abc }}
        dest: /tmp
