@@ -25,4 +25,3 @@ env:
   BASH_SEVERITY: "error"
   GITHUB_ACTIONS_COMMAND_ARGS: "-shellcheck="
   VALIDATE_BASH": false
-  YAML_CONFIG_FILE: .yamllint.yml
