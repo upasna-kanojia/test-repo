@@ -2,6 +2,6 @@
 - hosts: all
   tasks:
     - name: test
-      xyza:
+      service:
       src: {{ abc }}
       dest: /tmp
