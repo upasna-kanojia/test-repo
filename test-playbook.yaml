@@ -3,5 +3,5 @@
   tasks:
     - name: test
       xyza:
-       src: {{ abc }}
-       dest: /tmp
+      src: {{ abc }}
+      dest: /tmp
