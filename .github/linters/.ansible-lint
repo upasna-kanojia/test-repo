@@ -1,5 +1,0 @@
----
-skip_list:
-  - name[casing]
-  - no-changed-when
-  - role-name
