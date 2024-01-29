@@ -2,6 +2,6 @@
 - hosts: all
   tasks:
     - name: test
-      cmds:
+      xyza:
        src: {{ abc }}
        dest: /tmp
